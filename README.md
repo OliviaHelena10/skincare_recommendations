@@ -31,3 +31,9 @@ Opencv and Matplotlib. I did some experiments while accompaning some tutorials a
 ## References
 
 - Image Processing with OpenCV and Python. Availabel at: https://youtu.be/kSqxn6zGE0c?si=wUtJW8aOctj2ypTp
+- Reconhecimento de Imagens com Deep Learning usando TensorFlow e Keras // Mão no Código by Red Hat #8. Availabel at: https://youtu.be/7MItgjXU3_E?si=KCwV-pdFG8JI4EcL
+- Build a Deep CNN Image Classifier with ANY Images. Availabel at:  https://youtu.be/jztwpsIzEGc?si=NdN1BZckRoBdCC5W
+- Scikit-learn documentation. Availabel at: https://scikit-learn.org/stable/modules/preprocessing.html
+- TensorFlow documentation Availabel at: https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
+- Keras documentation. Availabel at: https://keras.io/2.15/api/layers/pooling_layers/max_pooling2d/
+- Alura Course - Keras: primeiros passos em redes neurais. Availabel at: https://cursos.alura.com.br/course/keras-primeiros-passos-redes-neurais
