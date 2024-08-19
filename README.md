@@ -7,25 +7,30 @@ Something that is really popular nowadays is skincare. It doesn’t matter if yo
 skin type and having the right routine to achieve beautiful skin is an important thing that can make you look better 
 and healthier.
 
-## Objective
-Essentially this dataset is for training machine learning while I also acquire knowledge in other libraries and 
-types of data, such as images, which pose the biggest challenge in this project.
+## Objectives
+- Create a AI that identifies skin types and recommends products specifically for each skin need.
+- Understand which skincare products have bigger impact on the sellings.
 
 ## Datasets
 All the sources that I used were downloaded from Kaggle.
  - Oily, Dry and Normal Skin Types Dataset: https://www.kaggle.com/datasets/shakyadissanayake/oily-dry-and-normal-skin-types-dataset
  - Amazon Skincare Products: https://www.kaggle.com/datasets/namantrisoliya/amazon-skincare-products
 
+## Results
+
+
+## Machine Learning Algorithm
+One hidden dense layer with 128 neurons.
+
+![layers](https://github.com/user-attachments/assets/1f33732c-b737-430d-8479-9925ab633469)
+
 ## Process
 After downloading all the datasets that I needed, I opened VsCode to start investigating my data. I realized that it would
 be necessary some other libraries  that I  had never used, so I started searching for some online materials that would help 
 me solve some of the problems that I was encountering.
 
-Firstly I found some videos and websites talking about some libraries that are important for when we are using images such as
-Opencv and Matplotlib. I did some experiments while accompaning some tutorials and learned new things.
-
-## Machine Learning Algorithms 
-
+Firstly, for my ML model I found some videos and websites talking about some libraries, did some experiments while accompaning 
+tutorials and read the documentations for deeper comprehension.
 
 
 ## References
@@ -37,3 +42,4 @@ Opencv and Matplotlib. I did some experiments while accompaning some tutorials a
 - TensorFlow documentation Availabel at: https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
 - Keras documentation. Availabel at: https://keras.io/2.15/api/layers/pooling_layers/max_pooling2d/
 - Alura Course - Keras: primeiros passos em redes neurais. Availabel at: https://cursos.alura.com.br/course/keras-primeiros-passos-redes-neurais
+- Alura Course - TensorFlow Keras: classificando imagens com redes convolucionais, Availabel at: https://cursos.alura.com.br/course/tensorflow-keras-classificando-imagens-redes-convolucionais
