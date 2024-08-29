@@ -17,10 +17,16 @@ All the sources that I used were downloaded from Kaggle.
  - Amazon Skincare Products: https://www.kaggle.com/datasets/namantrisoliya/amazon-skincare-products
 
 ## Results
+Our results weren't the bests even though I tried different models the validation accuracy was inferior then what would be considered
+eficcient. After some experiments it obvious that the main problem was on the data so thats something that we are going to fiz later.
+Here is the online application where you can send your image to verify your skin type: https://skincarerecommendations-machinelearn.streamlit.app/
+After my code is repaired you will probably have a better experience.
 
+## Pipeline:
+![pipeline](https://github.com/user-attachments/assets/e18d4ab7-f2f3-49b3-b984-59b760f6633e)
 
 ## Machine Learning Algorithm
-One hidden dense layer with 128 neurons.
+One reescaling layer, one padding layer and one hidden dense layer with 128 neurons.
 
 ![layers](https://github.com/user-attachments/assets/1f33732c-b737-430d-8479-9925ab633469)
 
@@ -32,7 +38,6 @@ me solve some of the problems that I was encountering.
 Firstly, for my ML model I found some videos and websites talking about some libraries, did some experiments while accompaning 
 tutorials and read the documentations for deeper comprehension.
 
-
 ## References
 
 - Image Processing with OpenCV and Python. Availabel at: https://youtu.be/kSqxn6zGE0c?si=wUtJW8aOctj2ypTp
@@ -43,3 +48,4 @@ tutorials and read the documentations for deeper comprehension.
 - Keras documentation. Availabel at: https://keras.io/2.15/api/layers/pooling_layers/max_pooling2d/
 - Alura Course - Keras: primeiros passos em redes neurais. Availabel at: https://cursos.alura.com.br/course/keras-primeiros-passos-redes-neurais
 - Alura Course - TensorFlow Keras: classificando imagens com redes convolucionais, Availabel at: https://cursos.alura.com.br/course/tensorflow-keras-classificando-imagens-redes-convolucionais
+- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
