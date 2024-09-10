@@ -25,6 +25,7 @@ def load_image():
         st.image(image)
         st.success('Image was successfully loaded')
 
+        image = image.resize((640, 640,  3)))
         image = np.array(image, dtype=np.float32)
         image = image / 255.0
         image = np.expand_dims(image, axis=0)
