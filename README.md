@@ -26,9 +26,9 @@ After my code is repaired you will probably have a better experience.
 ![pipeline](https://github.com/user-attachments/assets/e18d4ab7-f2f3-49b3-b984-59b760f6633e)
 
 ## Machine Learning Algorithm
-One reescaling layer, one padding layer and one hidden dense layer with 128 neurons.
+One reescaling layer, one padding layer, one reducing layer and two hidden layers (the first with 6 filters applied and the other one with 128 neurons).
 
-![layers](https://github.com/user-attachments/assets/1f33732c-b737-430d-8479-9925ab633469)
+![model_ml](https://github.com/user-attachments/assets/bce8677d-31d6-4d9e-9b6b-c14e207f1ff5)
 
 ## Process
 After downloading all the datasets that I needed, I opened VsCode to start investigating my data. I realized that it would
