@@ -36,7 +36,10 @@ be necessary some other libraries  that I  had never used, so I started searchin
 me solve some of the problems that I was encountering.
 
 Firstly, for my ML model I found some videos and websites talking about some libraries, did some experiments while accompaning 
-tutorials and read the documentations for deeper comprehension.
+tutorials and read the documentations for deeper comprehension. The results were published on a streamlit application.
+
+After completing my model I started to understand the amazon skincare products dataset and tried to find some insights. Here is one of them:
+![grafico](https://github.com/user-attachments/assets/cb2163ae-e276-4d5d-9948-474fff2762a8)
 
 ## References
 
@@ -48,4 +51,5 @@ tutorials and read the documentations for deeper comprehension.
 - Keras documentation. Availabel at: https://keras.io/2.15/api/layers/pooling_layers/max_pooling2d/
 - Alura Course - Keras: primeiros passos em redes neurais. Availabel at: https://cursos.alura.com.br/course/keras-primeiros-passos-redes-neurais
 - Alura Course - TensorFlow Keras: classificando imagens com redes convolucionais, Availabel at: https://cursos.alura.com.br/course/tensorflow-keras-classificando-imagens-redes-convolucionais
-- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
+- Book - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
+- Book - Storytelling with data
