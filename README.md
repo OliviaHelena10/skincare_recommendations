@@ -3,42 +3,47 @@
 ![skincare-101-800x445](https://github.com/user-attachments/assets/4f39145b-9ec8-42d1-a90e-4faec3c09a3c)
 
 ## Context
-Something that is really popular nowadays is skincare. It doesn’t matter if you are a man or a woman, identifying your 
-skin type and having the right routine to achieve beautiful skin is an important thing that can make you look better 
-and healthier.
+Skincare has become increasingly popular in recent years. Regardless of gender, identifying your skin type and 
+establishing a personalized skincare routine is crucial for maintaining healthy, radiant skin. A tailored approach 
+can significantly enhance your appearance and overall skin health.
 
 ## Objectives
-- Create a AI that identifies skin types and recommends products specifically for each skin need.
-- Understand which skincare products have bigger impact on the sellings.
+- Create a AI that identifies skin types and recommends products tailored to specific skincare needs.
+- Understand which skincare products have the greatest impact on sales and why.
 
 ## Datasets
-All the sources that I used were downloaded from Kaggle.
+The datasets used in this project were sourced from Kaggle with implementation from chatgpt to make them more complete:
  - Oily, Dry and Normal Skin Types Dataset: https://www.kaggle.com/datasets/shakyadissanayake/oily-dry-and-normal-skin-types-dataset
  - Amazon Skincare Products: https://www.kaggle.com/datasets/namantrisoliya/amazon-skincare-products
 
 ## Results
-Our results weren't the bests even though I tried different models the validation accuracy was inferior then what would be considered
-eficcient. After some experiments it obvious that the main problem was on the data so thats something that we are going to fiz later.
-Here is the online application where you can send your image to verify your skin type: https://skincarerecommendations-machinelearn.streamlit.app/
-After my code is repaired you will probably have a better experience.
+The initial results were not as strong as expected, even after experimenting with various models. The validation accuracy fell short 
+of what is considered efficient. After multiple tests, it became evident that the primary issue lies within the data itself. This is 
+something that will be addressed in future iterations. You can try out the current version of the app, where you can upload an image 
+to determine your skin type: Online Skin Type Classifier. Once the data and code are refined, the user experience and accuracy should 
+improve.
 
 ## Pipeline:
-![pipeline](https://github.com/user-attachments/assets/e18d4ab7-f2f3-49b3-b984-59b760f6633e)
+![pipeline_skins](https://github.com/user-attachments/assets/c04bc24f-18d0-4454-aebb-178a636f7c67)
 
 ## Machine Learning Algorithm
-One reescaling layer, one padding layer, one reducing layer and two hidden layers (the first with 6 filters applied and the other one with 128 neurons).
+The model architecture includes one rescaling layer, one padding layer, one reduction layer, and two hidden layers (the first with 6 
+filters, and the second with 128 neurons).
 
 ![model_ml](https://github.com/user-attachments/assets/bce8677d-31d6-4d9e-9b6b-c14e207f1ff5)
 
 ## Process
-After downloading all the datasets that I needed, I opened VsCode to start investigating my data. I realized that it would
-be necessary some other libraries  that I  had never used, so I started searching for some online materials that would help 
-me solve some of the problems that I was encountering.
+After downloading the necessary datasets, I began exploring the data using Visual Studio Code. I realized that I needed additional 
+libraries that I hadn’t worked with before, so I searched for online resources and tutorials to guide me through the challenges I 
+encountered.
 
-Firstly, for my ML model I found some videos and websites talking about some libraries, did some experiments while accompaning 
-tutorials and read the documentations for deeper comprehension. The results were published on a streamlit application.
+For my machine learning model, I consulted various videos, articles, and documentation to deepen my understanding. I experimented 
+with the tools and eventually published the results on a Streamlit application.
 
-After completing my model I started to understand the amazon skincare products dataset and tried to find some insights. Here is one of them:
+Once the model was complete, I turned my attention to the Amazon skincare products dataset to extract insights. Below is one example 
+of the insights I discovered:
+
+
 ![grafico](https://github.com/user-attachments/assets/cb2163ae-e276-4d5d-9948-474fff2762a8)
 
 ## References
